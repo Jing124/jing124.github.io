@@ -18,27 +18,28 @@ body {
     text-align: center;
     font-size: 80px;
     top: 35%;
-    left: 40%;
+    left: 55%;
 }
 
 .subtext {
     position: absolute;
     font-size: 50px;
     top: 55%;
-    left: 42%;
+    left: 58%;
 }
 
-.subtext div:first-child{
+.subtext div:first-child {
     margin-left: 1rem;
 }
-.subtext div:last-child{
+
+.subtext div:last-child {
     margin-left: 11rem;
 }
 
 .rectangle {
     position: absolute;
     top: 55%;
-    left: 40%;
+    left: 55%;
     width: 38.5%;
     height: 17.5%;
     background-color: white;
@@ -71,7 +72,6 @@ img {
 
 .topnav {
     overflow: hidden;
-    margin-right: 5rem;
 }
 
 .topnav a {
@@ -88,8 +88,31 @@ img {
 .topnav .icon {
     display: none;
 }
+.logo{
+    width: auto;
+    height: 33px;
+    margin-top: 10px;
+}
+.sidelogo{
+    position: absolute;
+    top: 72%;
+    left: 2.4%;
+    opacity: 0.8;
+}
+.logof{
+    width: auto;
+    height: 55px;
+}
+.mainlogo{
+    position: absolute;
+    left: 0.8%;
+    top: 1.8%;
+}
 
 @media screen and (max-width: 600px) {
+    .logof{
+        height: 40px;
+    }
     .topnav {
         margin-right: unset;
     }
@@ -102,22 +125,32 @@ img {
         display: block;
     }
     .text {
-        font-size: 40px;
+        font-size: 30px;
     }
     img {
         margin-top: 15%;
         width: 80%;
     }
-
-    .subtext{
-        font-size: 30px;
+    .subtext {
+        font-size: 20px;
+        top: 46%;
+        left: 55.5%;
     }
     .subtext div:last-child {
         margin-left: 5rem;
     }
     .rectangle {
-        width: 59%;
-        height: 13%;
+        width: 44.4%;
+        height: 10%;
+        top: 45%;
+    }
+    .logo{
+        width: auto;
+        height: 20px;
+    }
+    .sidelogo{
+        top: 48%;
+        left: 2%;
     }
 }
 
