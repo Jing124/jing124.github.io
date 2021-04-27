@@ -23,10 +23,16 @@ body {
 
 .subtext {
     position: absolute;
-    text-align: center;
     font-size: 50px;
     top: 55%;
     left: 42%;
+}
+
+.subtext div:first-child{
+    margin-left: 1rem;
+}
+.subtext div:last-child{
+    margin-left: 11rem;
 }
 
 .rectangle {
@@ -34,7 +40,7 @@ body {
     top: 55%;
     left: 40%;
     width: 38.5%;
-    height: 15%;
+    height: 17.5%;
     background-color: white;
     opacity: 0.5;
 }
@@ -87,7 +93,6 @@ img {
     .topnav {
         margin-right: unset;
     }
-
     .topnav a {
         display: none;
         margin-right: unset;
@@ -95,6 +100,24 @@ img {
     .topnav a.icon {
         float: right;
         display: block;
+    }
+    .text {
+        font-size: 40px;
+    }
+    img {
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    .subtext{
+        font-size: 30px;
+    }
+    .subtext div:last-child {
+        margin-left: 5rem;
+    }
+    .rectangle {
+        width: 59%;
+        height: 13%;
     }
 }
 
