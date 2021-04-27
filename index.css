@@ -1,10 +1,7 @@
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-}
   
 .column {
     float: left;
@@ -12,23 +9,18 @@ body {
     padding: 10px;
 }
 
-#container {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.center {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
+.navbar {
+    
+    text-align:right;
+    padding-right: 50px;
+    padding-top: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
 }
 
 .nav {
     text-decoration: none;
-    font-size: 30px;
-    color:black;
+    /* color:#a70900; */
+    color: white;
+    padding: 30px;
 }

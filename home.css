@@ -1,19 +1,56 @@
-#table {
-    width: 100%;
-    margin-top: 11%;
+ 
+ @font-face {
+     font-family: "rogfont";
+     src: url(font/ROGFONTS-REGULAR.woff);
+ }
+ * {
+    box-sizing: border-box;
+}          
+body {
+    background-color: black;
+    font-family: rogfont;
+    color: white;
+      
+}
+.text{
+    position: absolute;
+    text-align: center;
+    font-size: 80px; 
+    top: 35%;
+    left: 40%;
+}
+.subtext{
+    position: absolute;
+    text-align: center;
+    font-size: 50px; 
+    top: 55%;
+    left: 42%;
+} 
+.rectangle{
+    position: absolute; 
+    top: 55%;
+    left: 40%;
+    width: 38.5%;
+    height: 15%;
+    background-color: white;
+    opacity: 0.5;
+}
+.subtext:not(:first-child) {
+    display: none;
+}
+.subtext::before{
+    padding: 1rem;
+    background-color: white;
+    opacity: 0.5;
 }
 
-#intro-box {
-    border: 1px solid #343a40!important;
-    border-width: 3px !important;
-    width: 400px;
-    margin-top: 0;
-    margin-bottom: 1rem;
-    padding: 3rem;
-    line-height: 1.5;
+img{
+    display: block;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: auto;
+    width: 55%;
 }
-
-#welcome-box {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 80px;
+.navbar{
+    color: #a70900;
 }
