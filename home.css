@@ -9,6 +9,7 @@
 body,
 html {
     height: 100%;
+    overflow-y: hidden;
 }
 
 body {
@@ -95,5 +96,5 @@ body {
     left: 55%;
     width: 38.5%;
     height: 17.5%;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
 }

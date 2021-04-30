@@ -2,13 +2,19 @@
 
 /* Extra Extra small devices (phones, 400px and down) */
 @media only screen and (max-width: 400px) {
+    #home {
+        background-position: 50% 40% !important;
+    }
+
     .container .text {
         font-size: 40px !important;
     }
 
     .subtext {
         font-size: 40px !important;
+        top: 50%;
     }
+
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -30,6 +36,7 @@
     .topnav a.icon {
         float: right;
         display: block;
+        padding-top: 0.5rem;
     }
 
     .container .text {
@@ -73,6 +80,10 @@
     .subtext div {
         text-align: center;
         margin-left: unset !important;
+    }
+
+    .topnav {
+        margin-top: 0.6rem;
     }
 }
 
@@ -137,6 +148,7 @@
     .topnav a.icon {
         float: right;
         display: block;
+        padding-top: 0.3rem;
     }
 }
 
