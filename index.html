@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="home.css" />
+        <link rel="stylesheet" href="responsive_home.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-    <div class="mainlogo">
-        <img class="logof" src="image/logo.png" alt="profile">
-    </div>
-    <div class="topnav" id="topnav">
-        <a href="">Contact</a>
-        <a href="resume.html">Resume</a>
-        <a href="">About</a>
-        <a href="">Home</a>
-        <a href="javascript:void(0);" class="icon" onclick="showResponsiveNav()">
-            <i class="fa fa-bars"></i>
-          </a>
-    </div>
-    <div class="sidelogo">
-        <img class="logo" src="image/logo4.png" alt="profile">
-        <a href="https://flickr.com/photos/189946022@N05/" ><img class="logo" src="image/logo1.png" alt="profile"></a>
-        <img class="logo" src="image/logo2.png" alt="profile">
-    </div>
-    <div class="container">
-        <img src="image/1.1.png" alt="profile">
-        <div class="text">
-            WhimsicalJ
+    <body>
+        <div id="home">
+            <div class="mainlogo">
+                <img src="image/logo.png" alt="profile" />
+            </div>
+            <div class="topnav" id="topnav">
+                <a href="">Contact</a>
+                <a href="resume.html">Resume</a>
+                <a href="">About</a>
+                <a href="">Home</a>
+                <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="showResponsiveNav()"
+                >
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="sidelogo">
+                <img src="image/logo4.png" alt="profile" />
+                <a href="https://flickr.com/photos/189946022@N05/"
+                    ><img src="image/logo1.png" alt="profile"
+                /></a>
+                <img src="image/logo2.png" alt="profile" />
+            </div>
+            <div class="container">
+                <div class="text">WhimsicalJ</div>
+                <div class="subtext" id="profession">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </div>
-        <div class="subtext" id="profession">
-            <div></div>
-            <div></div>
-        </div>
-
-        <div class="rectangle"></div>
         <script src="script.js"></script>
-    </div>
-
-</body>
-
+    </body>
 </html>

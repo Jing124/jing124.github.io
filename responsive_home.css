@@ -1,0 +1,152 @@
+/* // This file is for index.html only */
+
+/* Extra Extra small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+    .container .text {
+        font-size: 40px !important;
+    }
+
+    .subtext {
+        font-size: 40px !important;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #home {
+        background-position: 50% 50%;
+        background-size: 100%;
+    }
+
+    .mainlogo img {
+        height: 40px;
+    }
+
+    .topnav a {
+        display: none;
+        margin-right: unset;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .container .text {
+        font-size: 55px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .subtext {
+        left: 50%;
+        width: 60%;
+        min-width: 350px;
+        transform: translate(-50%, 0);
+    }
+
+    .subtext div {
+        text-align: center;
+        margin-left: unset !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #home {
+        background-position: 50% 50%;
+        background-size: 100%;
+    }
+
+    .container .text {
+        font-size: 70px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .subtext {
+        left: 50%;
+        width: 60%;
+        transform: translate(-50%, 0);
+    }
+
+    .subtext div {
+        text-align: center;
+        margin-left: unset !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #home {
+        background-position: 23% 50%;
+        background-size: 90%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #home {
+        background-position: 23% 50%;
+        background-size: 55%;
+    }
+
+    .container .text {
+        font-size: 80px;
+        left: 38%;
+        transform: unset;
+    }
+
+    .subtext {
+        left: 38%;
+        width: 55%;
+        max-width: 650px;
+        transform: unset;
+    }
+
+    .subtext div:first-child {
+        text-align: unset;
+        margin-left: 1rem !important;
+    }
+
+    .subtext div:last-child {
+        text-align: unset;
+        margin-left: 11rem !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #home {
+        background-position: 23% 50%;
+        background-size: 55%;
+    }
+
+    .subtext {
+        width: 45%;
+    }
+}
+
+/* Addition Media Queries*/
+@media only screen and (max-width: 768px) {
+    .topnav a {
+        display: none;
+        margin-right: unset;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1340px) {
+    .container .text {
+        left: 55%;
+    }
+
+    .subtext {
+        left: 55%;
+        width: 38.5%;
+    }
+}
