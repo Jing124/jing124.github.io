@@ -1,0 +1,29 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .element{
+        margin-left: 44.5%;
+    }
+    .vl1{
+        height: 110px;
+    }
+    .elementimg{
+        margin-left: 30%;
+        margin-top: 2.2rem;
+    }
+    .row{
+        font-size: 10px;
+        column-gap: 0.15rem;
+    }
+    .column{
+        padding: 5px;
+    }
+    .column:first-child{
+        padding-left: 8px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .sub-title{
+        font-size: 18px;
+    }
+}
