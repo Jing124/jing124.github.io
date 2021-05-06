@@ -1,18 +1,110 @@
-.column-title{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    text-align: center;
+@font-face {
+    font-family: "rogfont";
+    src: url(../font/ROGFONTS-REGULAR.woff);
 }
 
-.column-description{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c47784;
+    background-color: #005c5f;
+}
+
+.nav {
+    display: block;
+    font-family: rogfont;
+    color: #c47784;
+    text-align: end;
+    padding: 14px 16px;
+    text-decoration: none;
     font-size: 20px;
+    margin-right: 2rem;
 }
-#name{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 70px;
-}
-#subtitle{
-    font-size: 30px;
 
+.first {
+    width: 365px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    padding-left: -0.5rem;
+    border: 6px dashed;
+}
+
+img {
+    width: auto;
+    height: 250px;
+    position: relative;
+    margin-left: 12%;
+}
+
+.name {
+    font-family: 'Original Surfer', cursive;
+    font-size: 50px;
+    margin-left: 10%;
+}
+
+.personalinfor {
+    font-size: 18px;
+    padding-top: 1rem;
+    margin-left: 5%;
+}
+
+.element {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-left: 48%;
+    margin-right: 30%;
+    width: 50px;
+}
+
+.vl1 {
+    border-left: 6px dashed #c47784;
+    height: 128px;
+    margin-left: 33.2%;
+}
+
+.arrow {
+    width: 0px;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 62px solid #c47784;
+}
+
+.elementimg {
+    width: auto;
+    height: 168px;
+    margin-top: 5rem;
+    margin-left: 43.5%;
+    margin-right: 20%;
+}
+
+.row {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3.7%;
+    margin-top: 5%;
+    column-gap: 2.5em;
+    font-size: 20px;
+    border: 6px dashed;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 15px;
+}
+
+.column:first-child {
+    border-right: 6px dashed #c47784;
+    padding-left: 3rem;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sub-title {
+    font-size: 25px;
+    font-weight: bold;
 }
