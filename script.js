@@ -39,12 +39,3 @@ function showNextLetter() {
         lastEl.innerText = "";
     }
 }
-
-function showResponsiveNav() {
-    const x = document.getElementById("topnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}

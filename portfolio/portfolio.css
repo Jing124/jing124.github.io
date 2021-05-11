@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "rogfont";
+    src: url(../font/ROGFONTS-REGULAR.woff);
+}
+
+.title {
+    font-family: rogfont;
+    font-size: 30px;
+    text-align: center;
+}
+
+.container {
+    display: flex !important;
+    align-items: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.subtitle {
+    float: left;
+    font-family: rogfont;
+    font-size: 20px;
+    width: 20%;
+}
+
+.flex-container {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    padding: 2rem;
+    border: 1px solid black;
+    margin-right: 3rem;
+}
+
+img {
+    width: auto;
+    height: 235px;
+}
+
+.img2 {
+    width: auto;
+    height: 250px;
+}
