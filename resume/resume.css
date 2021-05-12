@@ -14,46 +14,14 @@ body {
     margin: 0px;
 }
 
-.mainlogo {
-    position: absolute;
-    left: 0.8%;
-    top: 1.8%;
-}
-
 .mainlogo img {
-    width: auto;
     height: 50px;
 }
 
 .topnav a {
-    display: inline-block;
-    color: white;
-    font-family: rogfont;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    margin-right: 2rem;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-.topnav.responsive {
-    position: relative;
-}
-
-.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.topnav.responsive a:not(:last-child) {
     float: none;
-    display: block;
-    text-align: right;
-    margin-right: 2rem;
+    display: inline-block;
+    font-family: rogfont;
 }
 
 #topnav {
@@ -67,7 +35,7 @@ body {
 }
 
 #content #first {
-    margin-top: 4rem;
+    padding-top: 4rem;
     margin-left: 5rem;
     align-items: center;
 }
