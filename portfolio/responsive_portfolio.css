@@ -1,0 +1,68 @@
+/* // This file is for index.html only */
+
+/* Extra Extra small devices (phones, 400px and down) */
+
+@media only screen and (max-width: 400px) {
+    .title {
+        margin-top: 4rem;
+    }
+    .container {
+        margin-left: -0.25rem;
+    }
+    .subtitle {
+        font-size: 12px;
+        background: unset;
+    }
+    .content {
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        padding: 1rem ;
+    }
+    img {
+        width: 150px;
+    }
+    .topnav a {
+        display: none;
+        margin-right: unset;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+        padding-top: 0.5rem;
+    }
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 400px and up) */
+
+@media only screen and (min-width: 400px) {
+    .container {
+        margin-left: 1rem;
+    }
+    .content {
+        margin-bottom: 1rem;
+    }
+    .subtitle {
+        font-size: 16px;
+        background: unset;
+        margin-right: 3rem;
+    }
+
+}
+/* Extra small devices (phones, 500px and down) */
+
+@media only screen and (max-width: 500px) {
+    .container{
+        column-gap: 2rem;
+    }
+    img{
+        width: 200px;
+    }
+
+    
+}
+
+
+

@@ -7,21 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link href="portfolio.css" rel="stylesheet">
+    <link href="responsive_portfolio.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="title">Portfolio</div>
-
+    <div class="mainlogo">
+        <img src="../image/logo.png" alt="profile" />
+    </div>
+    <div class="topnav" id="topnav">
+        <a href="../index.html">Home</a>
+        <a href="../resume/resume.html">Resume</a>
+        <a href="">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="showResponsiveNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="title">Best Works</div>
     <div class="container">
         <div class="subtitle">Photography</div>
         <div class="flex-container">
-            <div class="p1">
+            <div class="content">
                 <img src="./p-image/1.JPG" alt="profile">
             </div>
-            <div class="p2">
+            <div class="content">
                 <img src="./p-image/2.JPG" alt="profile">
             </div>
-            <div class="p3">
+            <div class="content">
                 <img src="./p-image/3.JPG" alt="profile">
             </div>
         </div>
@@ -30,18 +41,18 @@
     <div class="container">
         <div class="subtitle">Poster Design</div>
         <div class="flex-container">
-            <div class="p4">
+            <div class="content">
                 <img class="img2" src="./p-image/4.JPG" alt="profile">
             </div>
-            <div class="p5">
+            <div class="content">
                 <img class="img2" src="./p-image/5.JPG" alt="profile">
             </div>
-            <div class="p6">
+            <div class="content">
                 <img class="img2" src="./p-image/6.JPG" alt="profile">
             </div>
         </div>
     </div>
-
+    <script src="../nav.js"></script>
 </body>
 
 </html>
