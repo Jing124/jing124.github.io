@@ -2,9 +2,12 @@
     font-family: "rogfont";
     src: url(../font/ROGFONTS-REGULAR.woff);
 }
+* {
+    box-sizing: border-box;
+}
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 28px;
     background-color: black;
     color: white;
@@ -58,33 +61,53 @@ body {
     margin-top: 1.2rem;
 }
 
-/* first part  */
+#content {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
 
-.first {
-    padding: 2rem;
-    column-count: 2;
-    column-gap: 2rem;
+#content #first {
     margin-top: 4rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+.list div {
+    margin-bottom: 0.5rem;
+}
+
+#nameWrapper {
+    flex: 50%;
+}
+
+#profile {
+    flex: 50%;
+}
+
+#profile img {
+    filter: drop-shadow(1px 5px 500px white) grayscale(1);
 }
 
 #circle {
-    height: 50px;
-    width: 50px;
+    padding: 8rem;
     background: linear-gradient(rgb(0, 85, 42), rgb(238, 28, 0));
     border-radius: 50%;
-    position: absolute;
-    top: 27%;
-    left: 47%;
-}
-
-.right {
-    margin-left: 2rem;
-    padding-top: 7rem;
+    flex: 70%;
 }
 
 .name {
+    margin-bottom: 2rem;
     font-family: rogfont;
     font-size: 58px;
+}
+
+#skill {
+    margin-top: 8rem;
+    font-size: 30px;
+}
+
+#skill .sub-title {
+    margin-bottom: 5rem;
 }
 
 /* first part end */
@@ -106,30 +129,28 @@ body {
     column-count: 2;
     margin-top: 2rem;
     line-height: 2rem;
-    margin-left: 7rem;
+    /* margin-left: 7rem; */
     margin-right: 3rem;
 }
-
 /* second part end */
 
 /* Third part */
 
-.skill {
-    margin-top: 8rem;
-    font-size: 30px;
-}
-
 .description {
     margin-top: 2rem;
-    margin-left: 7rem;
-    margin-right: 43rem;
 }
 
-.content {
-    margin-top: 1rem;
-    column-count: 2;
+.content.row {
+    margin-top: 2rem;
     font-size: 35px;
-    width: 135%;
+}
+
+.content.row .flex:first-child {
+    flex: 30%;
+}
+
+.content.row .flex:last-child {
+    flex: 70%;
 }
 
 .sw {
@@ -151,33 +172,26 @@ body {
 }
 
 .box-b {
-    display: inline-block;
     border: 1px solid;
-    width: 135%;
 }
 
-.column {
-    float: left;
-    height: 20px;
-}
-
-.column:first-child {
-    width: 80%;
+.box-b .progress-bar {
     background-color: rgb(238, 28, 0);
+    height: 100%;
 }
 
 /* Third part end */
 
 /* four part */
 
-.Experiment {
+#experience {
     margin-top: 10rem;
 }
 
 .content-third {
     margin-top: 2rem;
     border: 3px solid black;
-    margin-left: 7rem;
+    /* margin-left: 7rem; */
     margin-right: 3rem;
 }
 
@@ -186,12 +200,22 @@ body {
 }
 
 .description-e {
-    padding-left: 12rem;
-    padding-right: 4rem;
+    margin-left: 12rem;
+}
+
+.description-e ul li {
+    text-align: justify;
 }
 
 /* four part end */
-.smedia{
+
+#logo {
+    text-align: center;
+    padding-top: 3rem;
+    border-top: 2.5px solid white;
+}
+
+.smedia {
     width: auto;
     height: 50px;
 }

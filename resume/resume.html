@@ -1,138 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="resume.css" />
+        <link href="../shared.css" rel="stylesheet" />
+        <link href="responsive_resume.css" rel="stylesheet" />
+        <title>Resume</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="resume.css">
-    <link href="responsive_resume.css" rel="stylesheet">
-    <title>Resume</title>
-</head>
-
-<body>
-
-    <div class="mainlogo">
-        <img src="../image/logo.png" alt="profile" />
-    </div>
-    <div class="topnav" id="topnav">
-        <a href="../index.html">Home</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="showResponsiveNav()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <div class="first">
-
-        <div class="right">
-            <div id="circle"></div>
-            <div class="name"><b>Hi, I Am Jing Wang</b></div>
-        </div>
-    </div>
-    <div class="infor">
-        <div class="sub-title">About Me</div>
-        <div class="pinfo">
-            <div class="personalinfor">
-                <div><b>Language:</b> English/Chinese</div>
-                <div><b>Occupation:</b> Student</div>
-                 <div><b>College:</b> New York City College of Technology</div>
-                <div><b>Major:</b> Communication Design</div>
+    <body>
+        <div id="topnavWrapper">
+            <div class="mainlogo">
+                <img src="../image/logo.png" alt="profile" />
             </div>
-            <div class="summary">
-                A student majoring in Communication Design at New York City College of Technology. Knowledgeable in
-                an
-                assortment of graphics software. Experienced in Planning and designing projects on a variety of
-                devices.
+            <div class="topnav" id="topnav">
+                <a href="../index.html">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a
+                    href="javascript:void(0);"
+                    class="icon"
+                    onclick="showResponsiveNav()"
+                >
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
         </div>
-    </div>
-    <div class="skill">
-        <div class="sub-title">Skill</div>
-        <div class="description">
-            <div class="content">Adobe CC Software:</div>
-            <div class="sw">
-                <div class="swname">Illustrator</div>
-                <div class="box">
-                    <div class="column"></div>
-                    <div class="column"></div>
+        <div id="content">
+            <div id="first" class="row">
+                <div id="nameWrapper">
+                    <div class="name">
+                        <div><b>Hi, I Am Jing</b></div>
+                        <div><b>Wang</b></div>
+                    </div>
+                    <div class="list">
+                        <div>
+                            <b>College:</b> New York City College of Technology
+                        </div>
+                        <div><b>Major:</b> Communication Design</div>
+                        <div><b>Bilingual:</b> English/Chinese</div>
+                    </div>
+                </div>
+                <div id="profile" class="text-center">
+                    <img src="../image/2.1.png" />
                 </div>
             </div>
-            <div class="sw">
-                <div class="swname">InDesign</div>
-                <div class="box">
-                    <div class="column"></div>
-                    <div class="column"></div>
+            <div id="skill">
+                <div class="sub-title">Skills</div>
+                <div class="description">
+                    <div class="content row">
+                        <div class="flex">Illustrator</div>
+                        <div class="flex box-b">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                    <div class="content row">
+                        <div class="flex">InDesign</div>
+                        <div class="flex box-b">
+                            <div class="progress-bar width-80"></div>
+                        </div>
+                    </div>
+                    <div class="content row">
+                        <div class="flex">Photoshop</div>
+                        <div class="box-b flex">
+                            <div class="progress-bar width-80"></div>
+                        </div>
+                    </div>
+                    <div class="content row">
+                        <div class="flex">AfterEffect</div>
+                        <div class="flex box-b">
+                            <div class="progress-bar width-80"></div>
+                        </div>
+                    </div>
+                    <div class="content row">
+                        <div class="flex">Blender</div>
+                        <div class="flex box-b">
+                            <div class="progress-bar width-45"></div>
+                        </div>
+                    </div>
+                    <div class="content row">
+                        <div class="flex">Procreate</div>
+                        <div class="flex box-b">
+                            <div class="progress-bar width-45"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="sw">
-                <div class="swname">Photoshop</div>
-                <div class="box">
-                    <div class="column"></div>
-                    <div class="column"></div>
+            <div id="experience">
+                <div class="sub-title">Experiences</div>
+                <div class="content-third">
+                    <div class="subtitle">Menu Design</div>
+                    <div class="description-e">
+                        <ul>
+                            <li>
+                                Identified the restaurant atmosphere to
+                                determine which menu styles that are best suited
+                                for the restaurant.
+                            </li>
+                            <li>
+                                Responsible for designing, collating, and
+                                styling all the menu items from the client.
+                            </li>
+                            <li>
+                                Successfully designed, printed, then delivered
+                                different styles of menus to the client.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subtitle">Logo Design</div>
+                    <div class="description-e">
+                        <ul>
+                            <li>
+                                Gathered and analyzed client needs and
+                                requirements, then translated these requirements
+                                into the design process.
+                            </li>
+                            <li>
+                                Maintained frequent communication with the
+                                client for feedback and improvements.
+                            </li>
+                            <li>
+                                Followed the design process, then successfully
+                                designed and delivered logos to the clients.
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="sw">
-                <div class="swname">AfterEffect</div>
-                <div class="box">
-                    <div class="column"></div>
-                    <div class="column"></div>
-                </div>
-            </div>
-            <div class="content">
-                <div>Blender:</div>
-                <div class="box-b">
-                    <div class="column"></div>
-                    <div class="column"></div>
-                </div>
-            </div>
-            <div class="content">
-                <div>Procreate:</div>
-                <div class="box-b">
-                    <div class="column"></div>
-                    <div class="column"></div>
-                </div>
+            <div id="logo">
+                <img class="smedia" src="../image/3.png" alt="profile" />
+                <img class="smedia" src="../image/4.png" alt="profile" />
+                <img class="smedia" src="../image/5.png" alt="profile" />
             </div>
         </div>
-    </div>
-    <div class="Experiment">
-        <div class="sub-title">Experiment</div>
-        <div class="content-third">
-            <div class="subtitle">Menu Design</div>
-            <div class="description-e">
-                <ul>
-                    <li>
-                        Identified the restaurant atmosphere to determine which menu styles that are best suited for
-                        the
-                        restaurant.
-                    </li>
-                    <li>Responsible for designing, collating, and styling all the menu items from the client.</li>
-                    <li>Successfully designed, printed, then delivered different styles of menus to the client.</li>
-                </ul>
-            </div>
-            <div class="subtitle">Logo Design</div>
-            <div class="description-e">
-                <ul>
-                    <li>
-                        Gathered and analyzed client needs and requirements, then translated these requirements into
-                        the
-                        design process.
-                    </li>
-                    <li> Maintained frequent communication with the client for feedback and improvements.</li>
-                    <li>Followed the design process, then successfully designed and delivered logos to the clients.
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div id="logo">
-        <img class="smedia" src="../image/3.png" alt="profile">
-        <img class="smedia" src="../image/4.png" alt="profile">
-        <img class="smedia" src="../image/5.png" alt="profile">
-    </div>
-    <script src="../nav.js"></script>
-</body>
 
+        <script src="../nav.js"></script>
+    </body>
 </html>
