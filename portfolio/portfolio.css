@@ -19,47 +19,22 @@ body {
     height: 50px;
 }
 
-.topnav a {
-    display: inline-block;
-    color: white;
-    font-family: rogfont;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    margin-right: 2rem;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-.topnav.responsive {
-    position: relative;
-}
-
-.topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.topnav.responsive a:not(:last-child) {
-    float: none;
-    display: block;
-    text-align: right;
-    margin-right: 2rem;
-}
-
 #topnav {
     text-align: end;
     margin-top: 1.2rem;
+}
+
+.topnav a {
+    float: none;
+    display: inline-block;
+    font-family: rogfont;
 }
 
 .title {
     font-family: rogfont;
     font-size: 30px;
     text-align: center;
-    margin-top: 3rem;
+    padding-top: 3rem;
 }
 
 .container {
@@ -69,10 +44,6 @@ body {
     margin-left: 4rem;
     column-gap: 3rem;
 }
-
-
-
-
 
 .subtitle {
     float: left;

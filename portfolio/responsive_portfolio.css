@@ -17,23 +17,12 @@
         margin-left: 1.5rem;
         margin-right: 1rem;
         margin-bottom: 1rem;
-        padding: 1rem ;
+        padding: 1rem;
     }
     img {
         width: 150px;
     }
-    .topnav a {
-        display: none;
-        margin-right: unset;
-    }
-    .topnav a.icon {
-        float: right;
-        display: block;
-        padding-top: 0.5rem;
-    }
 }
-
-
 
 /* Small devices (portrait tablets and large phones, 400px and up) */
 
@@ -49,20 +38,23 @@
         background: unset;
         margin-right: 3rem;
     }
-
 }
 /* Extra small devices (phones, 500px and down) */
 
 @media only screen and (max-width: 500px) {
-    .container{
+    .container {
         column-gap: 2rem;
     }
-    img{
+    img {
         width: 200px;
     }
-
-    
 }
 
-
-
+@media only screen and (max-width: 768px) {
+    .topnav a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.3rem;
+    }
+}
