@@ -84,10 +84,6 @@ body {
     flex: 50%;
 }
 
-#profile img {
-    filter: drop-shadow(1px 5px 500px white) grayscale(1);
-}
-
 #circle {
     padding: 8rem;
     background: linear-gradient(rgb(0, 85, 42), rgb(238, 28, 0));

@@ -1,0 +1,37 @@
+@media only screen and (max-width: 600px) {
+    .mainlogo img {
+        height: 40px;
+    }
+
+    .topnav a {
+        display: none;
+        margin-right: unset;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        padding-top: 0.5rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .topnav {
+        margin-top: 0.6rem;
+    }
+}
+
+/* Addition Media Queries*/
+@media only screen and (max-width: 768px) {
+    .topnav a {
+        display: none;
+        margin-right: unset;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+        padding-top: 0.3rem;
+    }
+}
