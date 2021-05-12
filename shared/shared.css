@@ -1,0 +1,27 @@
+.inline-block {
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mr-2 {
+    margin-right: 2rem;
+}
+
+.col-count-2 {
+    column-count: 2;
+}
+
+.row {
+    display: flex;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.width-45 {
+    width: 45%;
+}

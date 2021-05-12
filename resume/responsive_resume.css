@@ -1,36 +1,87 @@
-/* Extra Extra small devices (phones, 400px and down) */
-@media only screen and (max-width: 400px) {
-    
-
+@media only screen and (max-width: 1423px) {
+    #content {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }
 
+@media only screen and (max-width: 1199px) {
+    #content #first {
+        margin-top: 5rem;
+        height: 90vh;
+        margin-left: 15rem;
+        background: url("../image/2.1_new.png");
+        background-repeat: no-repeat;
+        background-position-x: 10%;
+    }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .element{
-        margin-left: 44.5%;
+    #nameWrapper {
+        flex: 100%;
     }
-    .vl1{
-        height: 110px;
+
+    #profile {
+        display: none;
     }
-    .elementimg{
-        margin-left: 30%;
-        margin-top: 2.2rem;
+
+    #skill {
+        margin-top: -3rem;
     }
-    .row{
-        font-size: 10px;
-        column-gap: 0.15rem;
+}
+
+@media only screen and (max-width: 932px) {
+    #content #first {
+        margin-left: 0rem;
+        background-position-x: 50%;
     }
-    .column{
-        padding: 5px;
+
+    .description-e {
+        margin-left: 1rem;
     }
-    .column:first-child{
-        padding-left: 8px;
+}
+
+@media only screen and (max-width: 932px) {
+    #content #first {
+        margin-left: 0rem;
+        background-position-x: 50%;
     }
-    .title{
-        font-size: 25px;
+
+    .description-e {
+        margin-left: 1rem;
     }
-    .sub-title{
-        font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    .topnav a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-top: 0.3rem;
+    }
+
+    #content #first {
+        background-position-x: 50%;
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 683px) {
+    .content.row .flex:first-child {
+        flex: 100%;
+    }
+
+    .content.row .flex:last-child {
+        flex: 100%;
+    }
+
+    .description-e {
+        margin-left: 0rem;
+    }
+
+    .content-third {
+        margin-right: 0rem;
+    }
+
+    .description-e ul li {
+        text-align: left;
     }
 }
