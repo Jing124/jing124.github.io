@@ -50,7 +50,7 @@
         position: absolute;
         right: 0;
         top: 0;
-        padding-top: 0.3rem;
+        padding-top: 1.5rem;
     }
     #content #first {
         background-position-x: 50%;
@@ -74,5 +74,19 @@
     .description-e ul li {
         text-align: left;
     }
+
+    .sub-title {
+        word-wrap: break-word;
+    }
+
+    .box-b .progress-bar {
+        height: 2rem;
+    }
 }
 
+@media only screen and (max-width: 500px) {
+    #content {
+        margin-left: 0.5rem !important;
+        margin-right: 0.5rem !important;
+    }
+}
