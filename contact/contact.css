@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "rogfont";
+    src: url(../font/ROGFONTS-REGULAR.woff);
+}
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    background-image: url(../image/1.1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+#title {
+    font-family: rogfont;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.container {
+    width: 240px;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5rem;
+    border: 3px solid;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    margin: 5px 0 22px 0;
+    background: unset;
+    color: white;
+    border-style: hidden;
+    border-bottom: 1px solid white;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid white;
+}
+
+textarea {
+    background: unset;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+input[type=submit] {
+    color: white;
+    background: unset;
+    outline: none;
+    border: 1px solid white;
+    position: relative;
+    margin-left: 6rem;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=sumbit] {
+    outline: none;
+    background: unset;
+    color: white;
+}
+
+textarea:focus {
+    color: white;
+    outline: none;
+}
+
+div.form-group.inline {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+div.form-control.inline {
+    display: inline-block;
+}
